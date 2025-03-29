@@ -11,7 +11,7 @@ export default () => {
               className="size-28 mb-1 border border-xs border-[#eee] rounded-md overflow-hidden"
               key={index}
             >
-              <img src={item.url} />
+              <img src={item.url} className="h-full object-cover" />
             </li>
           ))}
         </ul>
