@@ -1,0 +1,194 @@
+{
+  "dolls": [
+    {
+      "uid": "1001",
+      "name": "Groza",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297366100.png"
+    },
+    {
+      "uid": "1002",
+      "name": "Nemesis",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297458727.png"
+    },
+    {
+      "uid": "1003",
+      "name": "Charolic",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297309268.png"
+    },
+    {
+      "uid": "1004",
+      "name": "Colphne",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297327544.png"
+    },
+    {
+      "uid": "1005",
+      "name": "Vepley",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297567249.png"
+    },
+    {
+      "uid": "1006",
+      "name": "Peritya",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297468646.png"
+    },
+    {
+      "uid": "1007",
+      "name": "Sharkry",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297517299.png"
+    },
+    {
+      "uid": "1008",
+      "name": "Cheeta",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297318280.png"
+    },
+    {
+      "uid": "1009",
+      "name": "Tololo",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297549900.png"
+    },
+    {
+      "uid": "1010",
+      "name": "Sabrina",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297496459.png"
+    },
+    {
+      "uid": "1011",
+      "name": "Nagant",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297440532.png"
+    },
+    {
+      "uid": "1012",
+      "name": "Qiongjiu",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297486683.png"
+    },
+    {
+      "uid": "1013",
+      "name": "Daiyan",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297339650.png"
+    },
+    {
+      "uid": "1014",
+      "name": "Mosinnagant",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297424471.png"
+    },
+    {
+      "uid": "1015",
+      "name": "Ksenia",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1717650763442.png"
+    },
+    {
+      "uid": "1016",
+      "name": "Littara",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297397375.png"
+    },
+    {
+      "uid": "1017",
+      "name": "Centaureissi",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297298792.png"
+    },
+    {
+      "uid": "1018",
+      "name": "Lenna",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297382357.png"
+    },
+    {
+      "uid": "1019",
+      "name": "Jiangyu",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297374865.png"
+    },
+    {
+      "uid": "1020",
+      "name": "Macqiato",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297415901.png"
+    },
+    {
+      "uid": "1021",
+      "name": "Ullrid",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297559274.png"
+    },
+    {
+      "uid": "1022",
+      "name": "Lotta",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297407291.png"
+    },
+    {
+      "uid": "1023",
+      "name": "Suomi",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1719229851454.png"
+    },
+    {
+      "uid": "1024",
+      "name": "Dusevnyj",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1721188357431.png"
+    },
+    {
+      "uid": "1025",
+      "name": "Zhaohui",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1722854258201.png"
+    },
+    {
+      "uid": "1026",
+      "name": "Papasha",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1722854266227.png"
+    },
+    {
+      "uid": "1027",
+      "name": "Clukay",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1724239027079.png"
+    },
+    {
+      "uid": "1028",
+      "name": "Mishty",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1724239035961.png"
+    },
+    {
+      "uid": "1029",
+      "name": "Vector",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1728372386571.png"
+    },
+    {
+      "uid": "1030",
+      "name": "Biyoca",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1729856972431.png"
+    },
+    {
+      "uid": "1031",
+      "name": "Andoris",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1731902269191.png"
+    },
+    {
+      "uid": "1032",
+      "name": "Springfield",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1733197091435.png"
+    },
+    {
+      "uid": "1033",
+      "name": "Faye",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1733197174585.png"
+    },
+    {
+      "uid": "1034",
+      "name": "Peri",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1735293169822.png"
+    },
+    {
+      "uid": "1035",
+      "name": "Qiuhua",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1737008642084.png"
+    },
+    {
+      "uid": "1036",
+      "name": "YooHee",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1738894236085.png"
+    },
+    {
+      "uid": "1037",
+      "name": "Nikketa",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1740551337432.png"
+    },
+    {
+      "uid": "1038",
+      "name": "Leva",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1742199823523.png"
+    }
+  ]
+}

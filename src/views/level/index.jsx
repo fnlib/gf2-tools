@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { Card, Slider, Divider } from "antd-mobile";
 import DefaultLayout from "../../layouts";
-import { data } from "../../data/exp.json";
-import { splist } from "../../data/splist.json";
+import { data, splist } from "./data.json";
 
 export default () => {
   const [level, setLevel] = useState([1, 60]);
@@ -100,6 +99,7 @@ export default () => {
     setT3(t3Max - t3Min);
     setT4(t4Max - t4Min);
   };
+
   return (
     <DefaultLayout>
       <Card title="升级素材计算器" className="mx-6 mt-6 text-base">

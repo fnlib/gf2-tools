@@ -1,10 +1,10 @@
 import DefaultLayout from "../../layouts";
-import { avatar } from "../../data/avatar.json";
+import { avatar } from "./avatar.json";
 
 export default () => {
   return (
     <DefaultLayout>
-      <div className="bg-[#f5f5f5] px-4 py-4">
+      <div className="p-4">
         <ul className="flex flex-wrap justify-between rounded-md">
           {avatar.map((item, index) => (
             <li
