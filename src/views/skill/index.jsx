@@ -80,7 +80,7 @@ export default function Skill() {
           {skillList.map((item, index) => (
             <li
               key={index}
-              className="w-36 h-10 my-1 mr-2 flex items-center"
+              className="w-36 h-10 my-1 mr-4 flex items-center"
               onClick={() => {
                 alert(item.describe);
               }}
