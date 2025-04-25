@@ -28,11 +28,11 @@ function DefaultList({ skillList }) {
 
 function DetailList({ skillList }) {
   return (
-    <ul className="mt-8">
+    <ul className="mt-8 flex flex-wrap">
       {skillList.map((item, index) => (
         <li
           key={index}
-          className="w-full h-25 flex items-center"
+          className="w-95 h-25 flex items-center"
           onClick={() => {
             alert(item.describe);
           }}

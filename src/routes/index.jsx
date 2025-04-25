@@ -3,6 +3,7 @@ import Home from "../views/home";
 import Level from "../views/level";
 import Skill from "../views/skill";
 import Avatar from "../views/avatar";
+import Clan from "../views/clan";
 
 const router = createBrowserRouter([
   {
@@ -20,6 +21,10 @@ const router = createBrowserRouter([
   {
     path: "/gf2-tools/avatar",
     element: <Avatar />,
+  },
+  {
+    path: "/gf2-tools/clan",
+    element: <Clan />,
   },
 ]);
 

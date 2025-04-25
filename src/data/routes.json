@@ -15,6 +15,10 @@
     {
       "path": "/gf2-tools/avatar",
       "title": "主题头像"
+    },
+    {
+      "path": "/gf2-tools/clan",
+      "title": "班组招募"
     }
   ]
 }
