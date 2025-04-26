@@ -4,7 +4,7 @@ import { avatar } from "./avatar.json";
 export default () => {
   return (
     <DefaultLayout>
-      <div className="p-4">
+      <div className="px-4 py-8">
         <ul className="flex flex-wrap justify-between rounded-md">
           {avatar.map((item, index) => (
             <li

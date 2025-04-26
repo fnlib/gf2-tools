@@ -7,7 +7,7 @@ export default function DefaultLayout({ children }) {
   const [visible, setVisible] = useState(false);
 
   return (
-    <div className="w-full min-h-full pt-12 pb-8 bg-[#f5f5f5]">
+    <div className="w-full min-h-full bg-[#f5f5f5]">
       <TopBar onShowMenu={() => setVisible(true)}></TopBar>
       <Popup
         visible={visible}

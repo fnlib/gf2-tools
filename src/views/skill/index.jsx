@@ -6,7 +6,7 @@ import { dolls } from "../../data/dolls.json";
 
 function DefaultList({ skillList }) {
   return (
-    <ul className="mt-8 flex flex-wrap">
+    <ul className="my-8 flex flex-wrap">
       {skillList.map((item, index) => (
         <li
           key={index}

@@ -5,7 +5,7 @@ export default function TopBar({ onShowMenu }) {
   const location = useLocation();
 
   return (
-    <div className="w-full h-12 bg-zinc-800 fixed top-0 z-99">
+    <div className="w-full h-12 bg-zinc-800 sticky top-0 z-99">
       <div
         className="h-12 flex items-center left-4 absolute cursor-pointer"
         onClick={onShowMenu}

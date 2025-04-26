@@ -102,7 +102,7 @@ export default () => {
 
   return (
     <DefaultLayout>
-      <Card title="升级素材计算器" className="mx-6 mt-6 text-base">
+      <Card title="升级素材计算器" className="mx-6 my-8 text-base">
         <p className="mx-2 my-4">
           <span className="mr-2">当前等级: {level[0]}</span>
           <span className="mx-2">目标等级: {level[1]}</span>
