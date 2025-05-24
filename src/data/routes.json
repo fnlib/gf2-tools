@@ -1,0 +1,24 @@
+{
+  "routes": [
+    {
+      "path": "/gf2-tools/",
+      "title": "主页"
+    },
+    {
+      "path": "/gf2-tools/skill",
+      "title": "技能速查"
+    },
+    {
+      "path": "/gf2-tools/level",
+      "title": "晋升需求"
+    },
+    {
+      "path": "/gf2-tools/avatar",
+      "title": "主题头像"
+    },
+    {
+      "path": "/gf2-tools/clan",
+      "title": "班组招募"
+    }
+  ]
+}

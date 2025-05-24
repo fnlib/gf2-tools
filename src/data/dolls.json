@@ -1,0 +1,238 @@
+{
+  "dolls": [
+    {
+      "uid": "1001",
+      "name": "闪电",
+      "name_en": "Groza",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297366100.png"
+    },
+    {
+      "uid": "1002",
+      "name": "纳美西丝",
+      "name_en": "Nemesis",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297458727.png"
+    },
+    {
+      "uid": "1003",
+      "name": "克罗丽科",
+      "name_en": "Charolic",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297309268.png"
+    },
+    {
+      "uid": "1004",
+      "name": "寇尔芙",
+      "name_en": "Colphne",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297327544.png"
+    },
+    {
+      "uid": "1005",
+      "name": "维普蕾",
+      "name_en": "Vepley",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297567249.png"
+    },
+    {
+      "uid": "1006",
+      "name": "佩里缇亚",
+      "name_en": "Peritya",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297468646.png"
+    },
+    {
+      "uid": "1007",
+      "name": "夏克里",
+      "name_en": "Sharkry",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297517299.png"
+    },
+    {
+      "uid": "1008",
+      "name": "奇塔",
+      "name_en": "Cheeta",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297318280.png"
+    },
+    {
+      "uid": "1009",
+      "name": "托洛洛",
+      "name_en": "Tololo",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297549900.png"
+    },
+    {
+      "uid": "1010",
+      "name": "塞布丽娜",
+      "name_en": "Sabrina",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297496459.png"
+    },
+    {
+      "uid": "1011",
+      "name": "纳甘",
+      "name_en": "Nagant",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297440532.png"
+    },
+    {
+      "uid": "1012",
+      "name": "琼玖",
+      "name_en": "Qiongjiu",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297486683.png"
+    },
+    {
+      "uid": "1013",
+      "name": "黛烟",
+      "name_en": "Daiyan",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297339650.png"
+    },
+    {
+      "uid": "1014",
+      "name": "莫辛纳甘",
+      "name_en": "Mosinnagant",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297424471.png"
+    },
+    {
+      "uid": "1015",
+      "name": "科谢尼娅",
+      "name_en": "Ksenia",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1717650763442.png"
+    },
+    {
+      "uid": "1016",
+      "name": "莉塔拉",
+      "name_en": "Littara",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297397375.png"
+    },
+    {
+      "uid": "1017",
+      "name": "桑朵莱希",
+      "name_en": "Centaureissi",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297298792.png"
+    },
+    {
+      "uid": "1018",
+      "name": "莱娜",
+      "name_en": "Lenna",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297382357.png"
+    },
+    {
+      "uid": "1019",
+      "name": "绛雨",
+      "name_en": "Jiangyu",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297374865.png"
+    },
+    {
+      "uid": "1020",
+      "name": "玛绮朵",
+      "name_en": "Macqiato",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297415901.png"
+    },
+    {
+      "uid": "1021",
+      "name": "乌尔丽德",
+      "name_en": "Ullrid",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297559274.png"
+    },
+    {
+      "uid": "1022",
+      "name": "洛塔",
+      "name_en": "Lotta",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1714297407291.png"
+    },
+    {
+      "uid": "1023",
+      "name": "索米",
+      "name_en": "Suomi",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1719229851454.png"
+    },
+    {
+      "uid": "1024",
+      "name": "杜莎妮",
+      "name_en": "Dusevnyj",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1721188357431.png"
+    },
+    {
+      "uid": "1025",
+      "name": "朝晖",
+      "name_en": "Zhaohui",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1722854258201.png"
+    },
+    {
+      "uid": "1026",
+      "name": "波波沙",
+      "name_en": "Papasha",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1722854266227.png"
+    },
+    {
+      "uid": "1027",
+      "name": "可露凯",
+      "name_en": "Clukay",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1724239027079.png"
+    },
+    {
+      "uid": "1028",
+      "name": "米什缇",
+      "name_en": "Mishty",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1724239035961.png"
+    },
+    {
+      "uid": "1029",
+      "name": "维克托",
+      "name_en": "Vector",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1728372386571.png"
+    },
+    {
+      "uid": "1030",
+      "name": "比悠卡",
+      "name_en": "Biyoca",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1729856972431.png"
+    },
+    {
+      "uid": "1031",
+      "name": "安朵丝",
+      "name_en": "Andoris",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1731902269191.png"
+    },
+    {
+      "uid": "1032",
+      "name": "春田",
+      "name_en": "Springfield",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1733197091435.png"
+    },
+    {
+      "uid": "1033",
+      "name": "绯",
+      "name_en": "Faye",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1733197174585.png"
+    },
+    {
+      "uid": "1034",
+      "name": "佩莉",
+      "name_en": "Peri",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1735293169822.png"
+    },
+    {
+      "uid": "1035",
+      "name": "秋桦",
+      "name_en": "Qiuhua",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1737008642084.png"
+    },
+    {
+      "uid": "1036",
+      "name": "幼熙",
+      "name_en": "YooHee",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1738894236085.png"
+    },
+    {
+      "uid": "1037",
+      "name": "妮基塔",
+      "name_en": "Nikketa",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1740551337432.png"
+    },
+    {
+      "uid": "1038",
+      "name": "莱娅",
+      "name_en": "Leva",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1742199823523.png"
+    },
+    {
+      "uid": "1039",
+      "name": "洛贝拉",
+      "name_en": "Robella",
+      "avatar_url": "https://community-cdn.exiliumgf.com/prod/image/1744191079007.png"
+    }
+  ]
+}
