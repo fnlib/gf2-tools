@@ -101,9 +101,10 @@
   };
   const workflow = async () => {
     const hasSignIn = await getSignInStatus();
-    if (!hasSignIn.data.has_sign_in && token != null) {
-      signInHandle();
-      exchangeHandle();
+    if (token != null) {
+      !hasSignIn.data.has_sign_in
+        ? (signInHandle(), exchangeHandle())
+        : exchangeHandle();
     }
   };
   workflow();
