@@ -27,7 +27,13 @@
   };
   const getTopicList = async () => {
     const topicList = await fetch(
-      "https://gf2-bbs-api.exiliumgf.com/community/topic/list"
+      "https://gf2-bbs-api.exiliumgf.com/community/topic/list?sort_type=1&category_id=5",
+      {
+        method: "GET",
+        headers: {
+          Authorization: token,
+        },
+      }
     );
     return topicList.json();
   };
@@ -54,6 +60,17 @@
     topicList.data.list.forEach((item, index) => {
       if (index > 2) {
         return;
+      }
+      if (item.is_like) {
+        fetch(
+          `https://gf2-bbs-api.exiliumgf.com/community/topic/like/${item.topic_id}`,
+          {
+            method: "GET",
+            headers: {
+              Authorization: token,
+            },
+          }
+        );
       }
       fetch(
         `https://gf2-bbs-api.exiliumgf.com/community/topic/like/${item.topic_id}`,
