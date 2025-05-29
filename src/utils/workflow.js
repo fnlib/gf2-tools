@@ -25,9 +25,10 @@
     );
     return signInRes.json();
   };
+
   const getTopicList = async () => {
     const topicList = await fetch(
-      "https://gf2-bbs-api.exiliumgf.com/community/topic/list?sort_type=1&category_id=5",
+      "https://gf2-bbs-api.exiliumgf.com/community/topic/list?sort_type=2&category_id=5",
       {
         method: "GET",
         headers: {
@@ -37,6 +38,7 @@
     );
     return topicList.json();
   };
+
   const getExchangeList = async () => {
     const exchangeList = await fetch(
       "https://gf2-bbs-api.exiliumgf.com/community/item/exchange_list",
@@ -49,38 +51,39 @@
     );
     return exchangeList.json();
   };
+
   const signInHandle = async () => {
-    const topicList = await getTopicList();
     await fetch("https://gf2-bbs-api.exiliumgf.com/community/task/sign_in", {
       method: "POST",
       headers: {
         Authorization: token,
       },
     });
+  };
+
+  const topicLike = async (topic_id) => {
+    fetch(
+      `https://gf2-bbs-api.exiliumgf.com/community/topic/like/${topic_id}`,
+      {
+        method: "GET",
+        headers: {
+          Authorization: token,
+        },
+      }
+    );
+  };
+
+  const taskHandle = async () => {
+    const topicList = await getTopicList();
+
     topicList.data.list.forEach((item, index) => {
       if (index > 2) {
         return;
       }
       if (item.is_like) {
-        fetch(
-          `https://gf2-bbs-api.exiliumgf.com/community/topic/like/${item.topic_id}`,
-          {
-            method: "GET",
-            headers: {
-              Authorization: token,
-            },
-          }
-        );
+        topicLike(item.topic_id);
       }
-      fetch(
-        `https://gf2-bbs-api.exiliumgf.com/community/topic/like/${item.topic_id}`,
-        {
-          method: "GET",
-          headers: {
-            Authorization: token,
-          },
-        }
-      );
+      topicLike(item.topic_id);
       fetch(
         `https://gf2-bbs-api.exiliumgf.com/community/topic/${item.topic_id}`,
         {
@@ -101,8 +104,10 @@
       );
     });
   };
+
   const exchangeHandle = async () => {
     const exchangeList = await getExchangeList();
+
     exchangeList.data.list.forEach((item) => {
       for (let i = item.exchange_count; i < item.max_exchange_count; i++) {
         fetch("https://gf2-bbs-api.exiliumgf.com/community/item/exchange", {
@@ -116,13 +121,18 @@
       }
     });
   };
+
   const workflow = async () => {
     const hasSignIn = await getSignInStatus();
+
     if (token != null) {
-      !hasSignIn.data.has_sign_in
-        ? (signInHandle(), exchangeHandle())
-        : exchangeHandle();
+      if (!hasSignIn.data.has_sign_in) {
+        signInHandle();
+        taskHandle();
+      }
+      exchangeHandle();
     }
   };
+
   workflow();
 })();
